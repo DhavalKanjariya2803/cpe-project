@@ -1,0 +1,3 @@
+
+// for sequlize model and migrations 
+sequelize model:create --name contacts --attributes contact:string
