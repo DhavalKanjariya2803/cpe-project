@@ -36,7 +36,7 @@ module.exports = {
     async searchData(req, res) {  
         try {
             const jsonData = await loadJsonData();
-            const inputArray = req.body;
+            const inputArray = req.body.cpeArray;
             // const inputArray = [
             //     "cpe:2.3:o:intel:ethernet_controller_e810_firmware:*:*:*:*:*:*:*:*",
             //     "cpe:2.3:a:intel:graphics_drivers:*:*:*:*:*:*:*:*"

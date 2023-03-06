@@ -9,6 +9,6 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.post('/api/search', cpeController.searchData)
+router.post('/api/search',  cpeController.searchData)
 
 module.exports = router;
